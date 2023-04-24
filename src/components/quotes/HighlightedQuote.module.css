@@ -1,0 +1,54 @@
+.quote {
+  background-color: #162b2b;
+  color: white;
+  border-radius: 6px;
+  padding: 3rem;
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.quote p {
+  font-size: 2.5rem;
+}
+
+.quote figcaption {
+  font-size: 22px;
+  font-family: system-ui;
+  color: #a1e0e0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.react {
+  width: 45%;
+  display: flex;
+}
+
+.react button {
+  color: #a1e0e0;
+  width: 49%;
+  border: 1px solid #a1e0e0;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0px 1%;
+}
+
+
+.react .like span {
+  margin-left: 1%;
+  /* border-radius: 4px;
+  padding: 2px 4px; */
+}
+
+.react .dislike span {
+  margin-left: 1%;
+  /* border-radius: 4px;
+  padding: 2px 4px; */
+}
+
+.react button:hover {
+  background-color: #a1e0e0;
+  color: black;
+}
